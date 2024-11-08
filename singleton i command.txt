@@ -1,0 +1,65 @@
+								singleton i command
+
+
+
+- singleton ne ide u test ?
+- koliko ima main metoda, toliko ima mogucih aplikacija u okviru projekta
+- kada napravim obj, poziva se prazan konstruktor koji je po defaultu public -> menjamo u private
+- kada se kreira objekat unutar neke klase - on je po definiciji instanca, da bismo omogucili koriscenje u drugim klasama, kazemo da je static
+
+
+slican primer na testu - na foru databaseconnection - to mi dodje samo vlastita imenica
+kada kreiramo obj sa new, to budu razliciti
+cilj SINGLETONA je da bude 1 obj
+1)stavljamo constructor na private
+2)obj kreiramo unutar klase, zove se instanca
+3)generisanje get metode
+Kad kreiramo u TestSingleton klasi obj, onda koristimo .getInstance(); - pozivanje instance
+nestrpljivo - svaki put se kreira obj
+
+
+lazy - stavlja se u get metodu, proverava se da li postoji instanca, ako ne, kreira nju
+
+
+ako direktno napisem p1=p2, samo pokazivac promeni - zapravo treba da odradimo get/set
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
